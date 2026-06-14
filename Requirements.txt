@@ -1,0 +1,14 @@
+### Dependencies & Libraries
+This project is built to be lightweight and portable. It strictly relies on **Python Standard Libraries**, requiring no external installations via `pip`.
+
+The following built-in modules are utilized:
+* `os` - For file system and directory path management.
+* `sys` - For script execution and path appends.
+* `json` - For parsing `Package.resolved` and saving structured report data.
+* `re` (Regular Expressions) - For parsing `Podfile` syntax and extracting brand keywords.
+* `socket` - For DNS resolution to detect abandoned domains (Owner Hijacking).
+* `plistlib` - For reading and writing macOS/iOS `Info.plist` framework files.
+* `time` - For pipeline execution delays.
+
+**Requirements:**
+* Python 3.x
